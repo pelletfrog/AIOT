@@ -6,6 +6,7 @@
 * Ans: 
 
 ```
+pi@raspberrypi:/home $ lsusb -v | grep "14 Video"
 Couldn't open device, some information will be missing
 Couldn't open device, some information will be missing
       bFunctionClass         14 Video
@@ -22,6 +23,8 @@ Couldn't open device, some information will be missing
       bInterfaceClass        14 Video
       bInterfaceClass        14 Video
       bInterfaceClass        14 Video
+Couldn't open device, some information will be missing
+Couldn't open device, some information will be missing
 ```
 
 
